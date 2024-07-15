@@ -2,6 +2,7 @@
 ```java
 public class HolaMundo {
     public static void main(String[] args) {
+        //La siguiente linea manda a imprimir en terminal el string ¡Hola mundo!
         System.out.println("Hola Mundo!");
     }
 }
@@ -23,6 +24,13 @@ public class HolaMundo {
 - **void**: Esto significa que el método no devuelve ningún valor.
 - **main**: Este es el nombre del método. El entorno de ejecución de Java busca un método `main` como el punto de entrada de la aplicación.
 - **String[] args**: Este es un arreglo de objetos `String` que se pueden pasar al método. Estos son argumentos de línea de comandos pasados al programa.
+
+```java
+//La siguiente linea manda a imprimir en terminal el string ¡Hola mundo!
+```
+  - Los comentarios en Java que comienzan con `//` son comentarios de una sola línea. Cualquier texto que siga `//` en esa línea será ignorado por el compilador.
+
+Cuando ejecutes este programa, el comentario no afectará la salida. Solo verás "¡Hola Mundo!" en la consola.
 
 ```java
         System.out.println("Hola Mundo!");

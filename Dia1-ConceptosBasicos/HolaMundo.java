@@ -1,6 +1,7 @@
 public class HolaMundo {
     public static void main(String[] args) {
-        System.out.println("Hola Mundo!");
+        //La siguiente linea manda a imprimir en terminal el string ¡Hola mundo!
+        System.out.println("¡Hola Mundo!");
     }
 }
 
