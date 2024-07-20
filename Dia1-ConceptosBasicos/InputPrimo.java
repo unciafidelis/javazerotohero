@@ -1,7 +1,8 @@
 import java.util.Scanner; // import the Scanner class 
 
 class InputPrimo {
-  public static void main(String[] args) {
+  @SuppressWarnings("resource")
+public static void main(String[] args) {
     Scanner myObj = new Scanner(System.in);
     int n;
     
